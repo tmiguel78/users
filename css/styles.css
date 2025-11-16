@@ -3,6 +3,9 @@ body {
   background-color: #f4f4f4;
   margin: 0;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 h1 {
@@ -10,4 +13,35 @@ h1 {
   color: #333;
 }
 
+img {
+  width: 150px;
+}
 
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+li {
+  list-style: none;;
+}
+
+#mainContainer {
+  background-color: white;
+  border: 2px solid lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 450px;
+  height: auto;
+  padding: 10px;
+  line-height: 8px;
+}
+
+#dataContainer {
+  line-height: 8px;
+  border: 2px solid lightgrey;
+  padding: 5px;
+  height: auto;
+}
